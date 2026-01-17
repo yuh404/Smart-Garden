@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\stm32_esp32.o"
+".\objects\stm32_esp32_main.o"
+".\objects\setting.o"
+".\objects\sysclk.o"
+".\objects\uart_config.o"
+".\objects\nvic.o"
+".\objects\stm32f10x_flash.o"
+".\objects\systick.o"
+".\objects\dien_dung.o"
+".\objects\bh1750.o"
+".\objects\hdc_1018.o"
+".\objects\hcsr04.o"
+".\objects\misc.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_i2c.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32_ESP32.map" -o .\Objects\STM32_ESP32.axf
