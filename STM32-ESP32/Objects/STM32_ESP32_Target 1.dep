@@ -1,430 +1,0 @@
-Dependencies for Project 'STM32_ESP32', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\STM32_ESP32.h)(0x692E96C1)()
-F (.\STM32_ESP32.c)(0x692E7F29)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32_esp32.o -MD)
-I (STM32_ESP32.h)(0x692E96C1)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (.\STM32_ESP32_MAIN.c)(0x69645968)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32_esp32_main.o -MD)
-I (STM32_ESP32.h)(0x692E96C1)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-I (SYSCLK.h)(0x692E83BF)
-I (UART_CONFIG.h)(0x693690FC)
-I (setting.h)(0x694F91E9)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\string.h)(0x68136A54)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x68136A54)
-I (NVIC.h)(0x69368D9D)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x68136A52)
-I (systick.h)(0x69355EA0)
-I (HCSR04.h)(0x693EDAE2)
-I (dien_dung.h)(0x6936A15D)
-I (BH1750.h)(0x69393E0B)
-I (HDC_1018.h)(0x69393BFC)
-F (.\setting.h)(0x694F91E9)()
-F (.\setting.c)(0x694F91E9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/setting.o -MD)
-I (setting.h)(0x694F91E9)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\string.h)(0x68136A54)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x68136A54)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (.\SYSCLK.c)(0x692E83C6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/sysclk.o -MD)
-I (SYSCLK.h)(0x692E83BF)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (.\SYSCLK.h)(0x692E83BF)()
-F (.\UART_CONFIG.c)(0x692E9F3F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/uart_config.o -MD)
-I (UART_CONFIG.h)(0x693690FC)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\string.h)(0x68136A54)
-F (.\UART_CONFIG.h)(0x693690FC)()
-F (.\NVIC.h)(0x69368D9D)()
-F (.\NVIC.c)(0x69368D9A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/nvic.o -MD)
-I (NVIC.h)(0x69368D9D)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:\Users\vanhu\Downloads\stsw-stm32054_v3-6-0\STM32F10x_StdPeriph_Lib_V3.6.0\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x692C2DE7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_flash.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (.\systick.h)(0x69355EA0)()
-F (.\systick.c)(0x693EFBB5)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/systick.o -MD)
-I (systick.h)(0x69355EA0)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (.\dien_dung.c)(0x6936A1CB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/dien_dung.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-I (dien_dung.h)(0x6936A15D)
-F (.\dien_dung.h)(0x6936A15D)()
-F (.\BH1750.h)(0x69393E0B)()
-F (.\BH1750.c)(0x69393E0D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/bh1750.o -MD)
-I (BH1750.h)(0x69393E0B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (.\HDC_1018.h)(0x69393BFC)()
-F (.\HDC_1018.c)(0x69395351)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/hdc_1018.o -MD)
-I (HDC_1018.h)(0x69393BFC)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x68136A52)
-F (.\HCSR04.h)(0x693EDAE2)()
-F (.\HCSR04.c)(0x693EEAA3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/hcsr04.o -MD)
-I (HCSR04.h)(0x693EDAE2)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/misc.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/misc.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_exti.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_exti.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_gpio.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_i2c.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_i2c.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_rcc.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_tim.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/stm32f10x_usart.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (C:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver/GPIO_STM32F10x.c)(0x68C1B471)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/gpio_stm32f10x.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\GPIO_STM32F10x.h)(0x68C1B471)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
-F (RTE/Device/STM32F103C8/RTE_Device.h)(0x68C1B471)()
-F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x68C1B470)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
-F (RTE/Device/STM32F103C8/stm32f10x_conf.h)(0x68C1B470)()
-F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x68C1B470)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/vanhu/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc-IC:/Users/vanhu/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DIP="IPR"-o ./objects/system_stm32f10x.o -MD)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x68C1B470)
-I (RTE\_Target_1\RTE_Components.h)(0x693ED0FB)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_version.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_compiler.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\cmsis_armclang.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x68136A52)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x68C1AF3B)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x68C1B470)
-I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x68C1B470)
-I (C:\Users\vanhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x68C1B470)
