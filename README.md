@@ -1,6 +1,5 @@
-<img width="348" height="435" alt="image" src="https://github.com/user-attachments/assets/fd1a1b2a-a4b0-4f98-a35d-a64699e3799c" />1. Project Overview (Tổng quan dự án)
+1. Project Overview (Tổng quan dự án)
 Dự án này tập trung nghiên cứu, thiết kế và phát triển một nền tảng robot di động tự hành (Autonomous Mobile Robot - AMR) hoàn chỉnh, từ cấp độ vi mạch phần cứng đến hệ thống phần mềm điều khiển trung tâm. Mục tiêu cốt lõi là tạo ra một khung gầm tự hành linh hoạt, có độ tin cậy cao và sẵn sàng tích hợp các thuật toán điều hướng thông minh.
-![Uploading image.png…]()
 
 
 Đặc điểm nổi bật nhất của dự án là việc ứng dụng và hiện thực hóa mô hình Hệ thống Không gian mạng - Thực thể (Cyber-Physical System - CPS). Đây là sự giao thoa khăng khít và đồng bộ giữa hai luồng xử lý:
